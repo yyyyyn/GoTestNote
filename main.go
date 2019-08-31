@@ -1,8 +1,8 @@
 package main
 
 import (
-	"GoTestNote/src/book/cxsjyy/chp1"
-	"GoTestNote/src/test/queuelist"
+	"book/cxsjyy/chp1"
+	"test/queuelist"
 )
 
 func main() {

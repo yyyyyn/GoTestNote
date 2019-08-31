@@ -32,7 +32,7 @@ func QueueTest() {
 		}
 		ele := queue.Front() // 取出链表第一个元素
 		val := ele.Value.(int)
-		fmt.Printf("val: %d", val)
+		fmt.Printf("val: %d\n", val)
 		queue.Remove(ele) // 将第一个元素删除，出队列
 	}
 }

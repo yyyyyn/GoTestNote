@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"GoTestNote/book/cxsjyy/chp1"
+	"GoTestNote/test/queuelist"
+)
 
 func main() {
-	fmt.Println("hello")
-	fmt.Println("hello world")
+	chp1.SayHello()
+	queuelist.QueueTest()
 }
